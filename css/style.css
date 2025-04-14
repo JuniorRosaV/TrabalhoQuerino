@@ -199,13 +199,13 @@ main .marcas .cards{
 main .marcas h1{
     width: 100%;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     text-shadow: #3936ff 3px 3px 12px;
     text-align: center;
 }
 
-main .marcas .cards .espaço{
+main .marcas .cards .espaco{
     width: 100%;
     height: 70%;
     background: transparent;
@@ -215,7 +215,7 @@ main .marcas .cards .espaço{
 }
 
 
-main .marcas .cards .espaço .card{
+main .marcas .cards .espaco .card{
     height: 150px;
     width: 250px;
     background: #fff;
@@ -228,11 +228,11 @@ main .marcas .cards .espaço .card{
     cursor: pointer;
 }
 
-main .marcas .cards .espaço .card img{
+main .marcas .cards .espaco .card img{
     width: 50%;
 }
 
-main .marcas .cards .espaço .card1{
+main .marcas .cards .espaco .card1{
     height: 150px;
     width: 250px;
     background: #fff;
@@ -245,11 +245,11 @@ main .marcas .cards .espaço .card1{
     cursor: pointer;
 }
 
-main .marcas .cards .espaço .card1 img{
+main .marcas .cards .espaco .card1 img{
     width: 50%;
 }
 
-main .marcas .cards .espaço .card2{
+main .marcas .cards .espaco .card2{
     height: 150px;
     width: 250px;
     background: #fff;
@@ -262,11 +262,11 @@ main .marcas .cards .espaço .card2{
     cursor: pointer;
 }
 
-main .marcas .cards .espaço .card2 img{
+main .marcas .cards .espaco .card2 img{
     width: 80%;
 }
 
-main .marcas .cards .espaço .card3{
+main .marcas .cards .espaco .card3{
     height: 150px;
     width: 250px;
     background: #fff;
@@ -279,11 +279,11 @@ main .marcas .cards .espaço .card3{
     cursor: pointer;
 }
 
-main .marcas .cards .espaço .card3 img{
+main .marcas .cards .espaco .card3 img{
     width: 70%;
 }
 
-main .marcas .cards .espaço .card4{
+main .marcas .cards .espaco .card4{
     height: 150px;
     width: 250px;
     background: #fff;
@@ -296,17 +296,58 @@ main .marcas .cards .espaço .card4{
     cursor: pointer;
 }
 
-main .marcas .cards .espaço .card4 img{
+main .marcas .cards .espaco .card4 img{
     width: 50%;
 }
 
-main .marcas .cards .espaço .hover:hover{
+main .marcas .cards .espaco .hover:hover{
     height: 152px;
     width: 250px;
     background: linear-gradient(to left, #8987ff,#292929) ;
     border-radius:50%;
     box-shadow: 3px 3px 16px #e7e7ff;
     transition: 1s;
+}
+
+main .localizacao{
+    width: 100%;
+    height: 80vh;
+    background: transparent;
+    border: 1px solid #000;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .localizacao h1{
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: #ddd 3px 3px 8px;
+    font-size: 25px;
+}
+
+main .localizacao .espaco{
+    border: #000 1px solid;
+    width: 90%;
+    height: 90vh;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+main .localizacao .espaco .loc{
+    border: #000 1px solid;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+main .localizacao .espaco .nos{
+    border: #000 1px solid;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 10px;
 }
 
 footer{
