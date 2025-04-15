@@ -54,6 +54,13 @@ header ul li a {
     text-transform: uppercase;
 }
 
+header ul li a:hover {
+    text-decoration:overline;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+
+}
+
 main {
     width: 100%;
     background-color: transparent;
@@ -226,6 +233,7 @@ main .marcas .cards .espaco .card{
     align-items: center;
     display: flex;
     cursor: pointer;
+    transition: 5s;
 }
 
 main .marcas .cards .espaco .card img{
@@ -243,6 +251,7 @@ main .marcas .cards .espaco .card1{
     align-items: center;
     display: flex;
     cursor: pointer;
+    transition: 5s;
 }
 
 main .marcas .cards .espaco .card1 img{
@@ -260,6 +269,7 @@ main .marcas .cards .espaco .card2{
     align-items: center;
     display: flex;
     cursor: pointer;
+    transition: 5s;
 }
 
 main .marcas .cards .espaco .card2 img{
@@ -277,6 +287,7 @@ main .marcas .cards .espaco .card3{
     align-items: center;
     display: flex;
     cursor: pointer;
+    transition: 5s;
 }
 
 main .marcas .cards .espaco .card3 img{
@@ -294,6 +305,7 @@ main .marcas .cards .espaco .card4{
     align-items: center;
     display: flex;
     cursor: pointer;
+    transition: 5s;
 }
 
 main .marcas .cards .espaco .card4 img{
@@ -313,7 +325,6 @@ main .localizacao{
     width: 100%;
     height: 80vh;
     background: transparent;
-    border: 1px solid #000;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -323,12 +334,10 @@ main .localizacao{
 main .localizacao h1{
     text-transform: uppercase;
     text-align: center;
-    text-shadow: #ddd 3px 3px 8px;
     font-size: 25px;
 }
 
 main .localizacao .espaco{
-    border: #000 1px solid;
     width: 90%;
     height: 90vh;
     margin-bottom: 10px;
@@ -337,18 +346,169 @@ main .localizacao .espaco{
 }
 
 main .localizacao .espaco .loc{
-    border: #000 1px solid;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main .localizacao .espaco .nos{
     width: 50%;
     height: 100%;
     margin-bottom: 10px;
 }
 
-main .localizacao .espaco .nos{
-    border: #000 1px solid;
-    width: 50%;
-    height: 100%;
-    margin-bottom: 10px;
+main .localizacao .espaco .loc .mapa{
+    width: 60%;
+     height: 90%;
+     background: linear-gradient(#202020,#3936ff);
+     border-radius: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     box-shadow: #202020 3px 3px 16px;
 }
+
+main .localizacao .espaco .loc .mapa img{
+    width: 90%;
+     height: 50%;
+     border-radius: 20px;
+     margin-top: 20px;
+}
+
+main .localizacao .espaco .loc h1{
+    color: #000;
+    margin-top: 10px;
+}
+
+main .localizacao .espaco .loc .mapa h1{
+    color: #fff;
+    margin-top: 10px;
+}
+
+main .localizacao .espaco .loc button{
+    padding: 20px 100px;
+    border: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: #fff;
+    font-weight: 600;
+    color: #3936ff;
+    margin-top: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: #ddd;
+}
+main .localizacao .espaco .loc button:hover{
+    padding: 22px 102px;
+    font-weight: bold;
+    color: #fff;
+    transition: 3s;
+    border-radius: 52px;
+    background: linear-gradient(to left, #3936ff,#292929) ;
+}
+
+main .localizacao .espaco .nos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .localizacao .espaco .nos .divisoria{
+    width: 80%;
+    height: 20%;
+    background: linear-gradient(to left, #3936ff,#292929);
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: #202020 3px 3px 16px;
+}
+main .localizacao .espaco .nos .divisoria1{
+    width: 80%;
+    height: 20%;
+    background: linear-gradient(to left, #3936ff,#292929);
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: #202020 3px 3px 16px;
+}
+main .localizacao .espaco .nos .divisoria2{
+    width: 80%;
+    height: 20%;
+    background: linear-gradient(to left, #3936ff,#292929);
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: #202020 3px 3px 16px;
+}
+main .localizacao .espaco .nos .divisoria3{
+    width: 80%;
+    height: 20%;
+    background: linear-gradient(to left, #3936ff,#292929);
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: #202020 3px 3px 16px;
+}
+main .localizacao .espaco .nos .divisoria4{
+    width: 80%;
+    height: 20%;
+    background: linear-gradient(to left, #3936ff,#292929);
+    margin-top: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: #202020 3px 3px 16px;
+}
+main .localizacao .espaco .nos .divisoria4 h1{
+    color: #fff;
+    box-shadow: none;
+}
+
+main .localizacao .espaco .nos .divisoria4 p{
+    color: #fff;
+    text-align: center;
+}
+
+main .localizacao .espaco .nos .divisoria3 h1{
+    color: #fff;
+    box-shadow: none;
+}
+
+main .localizacao .espaco .nos .divisoria3 p{
+    color: #fff;
+    text-align: center;
+
+}main .localizacao .espaco .nos .divisoria2 h1{
+    color: #fff;
+    box-shadow: none;
+}
+
+main .localizacao .espaco .nos .divisoria2 p{
+    color: #fff;
+    text-align: center;
+
+}main .localizacao .espaco .nos .divisoria1 h1{
+    color: #fff;
+    box-shadow: none;
+}
+
+main .localizacao .espaco .nos .divisoria1 p{
+    color: #fff;
+    text-align: center;
+
+}main .localizacao .espaco .nos .divisoria h1{
+    color: #fff;
+    box-shadow: none;
+}
+
+main .localizacao .espaco .nos .divisoria p{
+    color: #fff;
+    text-align: center;
+}
+
 
 footer{
     width: 100%;
