@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+main {
+    width: 100%;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+main .main {
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(to left,#202020,#3936ff) ;
+    color: #fff;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right: auto; 
+    position: relative;
+    overflow: hidden;
+
+}
+
+main .main .circle{
+    width: 600px;
+    height: 600px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    border: #272727 solid 8px;
+    top: -50%;
+    left: 50%;
+}
+
+main .main .circle1{
+    width: 300px;
+    height: 300px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    border: #272727 solid 8px;
+    top: 20%;
+    left: 10%;
+}
+
+main .main .circle2{
+    width: 600px;
+    height: 600px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    border: #202020 solid 8px;
+    top: 30%;
+    left:-20%;
+}
+
+main .main .circle3{
+    width: 600px;
+    height: 600px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    top: 60%;
+    left: 30%;
+}
+
+main .main .banners {
+    background-color: transparent;
+    border-radius: 6px;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+main .main .banners .left, .right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+main .main .banners .left{
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+main .main .banners .left h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    margin: 100px 100px 0 100px;
+    text-shadow: 6px 6px 16px #202020;
+    z-index: 1;
+}
+
+main .main .banners .left p{
+    text-transform: uppercase;
+    font-size: 17px;
+    margin: 0px 100px  0px 100px;
+    text-shadow: 2px 2px 4px #202020;
+}
+
+main .main .banners .left button{
+    padding: 16px 90px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    background: linear-gradient(to right,#cccccc,#ffffff);
+    font-size: 20px;
+    color: #202020;
+    margin: 40px 100px  0px 100px;
+    cursor: pointer;
+    box-shadow: #202020 6px 3px 10px;
+    font-weight: 500;
+}
+
+main .main .banners .left button:hover{
+    padding: 18px 92px;
+    border-radius: 32px;
+    background: linear-gradient(to right, #202020,#3936ff);
+    color: #fff;
+    font-weight:600;
+}
+
+main .marcas {
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(to left,#3b3b3b,#000);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .marcas .cards{
+    width: 80%;
+    display: block;
+    justify-content: center;
+    height: auto;
+}
+
+main .marcas h1{
+    width: 100%;
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-shadow: #3936ff 3px 3px 12px;
+    text-align: center;
+}
+
+main .marcas .cards .espaco{
+    width: 100%;
+    height: 70%;
+    background: transparent;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main .marcas .cards .espaco .card{
+    height: 150px;
+    width: 250px;
+    background: #fff;
+    border-radius:20px;
+    box-shadow: 3px 3px 16px #3936ff;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    transition: 5s;
+}
+
+main .marcas .cards .espaco .card img{
+    width: 50%;
+}
+
+main .marcas .cards .espaco .card1{
+    height: 150px;
+    width: 250px;
+    background: #fff;
+    border-radius:20px;
+    box-shadow: 3px 3px 16px #3936ff;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    transition: 5s;
+}
+
+main .marcas .cards .espaco .card1 img{
+    width: 50%;
+}
+
+main .marcas .cards .espaco .card2{
+    height: 150px;
+    width: 250px;
+    background: #fff;
+    border-radius:20px;
+    box-shadow: 3px 3px 16px #3936ff;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    transition: 5s;
+}
+
+main .marcas .cards .espaco .card2 img{
+    width: 80%;
+}
+
+main .marcas .cards .espaco .card3{
+    height: 150px;
+    width: 250px;
+    background: #fff;
+    border-radius:20px;
+    box-shadow: 3px 3px 16px #3936ff;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    transition: 5s;
+}
+
+main .marcas .cards .espaco .card3 img{
+    width: 70%;
+}
+
+main .marcas .cards .espaco .card4{
+    height: 150px;
+    width: 250px;
+    background: #fff;
+    border-radius:20px;
+    box-shadow: 3px 3px 16px #3936ff;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    transition: 5s;
+}
+
+main .marcas .cards .espaco .card4 img{
+    width: 50%;
+}
+
+main .marcas .cards .espaco .hover:hover{
+    height: 152px;
+    width: 250px;
+    background: linear-gradient(to left, #8987ff,#292929) ;
+    border-radius:50%;
+    box-shadow: 3px 3px 16px #e7e7ff;
+    transition: 1s;
+}
+
+main .localizacao{
+    width: 100%;
+    height: 80vh;
+    background: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .localizacao h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+main .localizacao .espaco{
+    width: 90%;
+    height: 90vh;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+main .localizacao .espaco .loc{
+    width: 50%;
+    height: 100%;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main .localizacao .espaco .nos{
+    width: 50%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+main .localizacao .espaco .loc .mapa{
+    width: 60%;
+     height: 90%;
+     background: linear-gradient(#202020,#3936ff);
+     border-radius: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     box-shadow: #202020 3px 3px 16px;
+}
+
+main .localizacao .espaco .loc .mapa img{
+    width: 90%;
+     height: 50%;
+     border-radius: 20px;
+     margin-top: 20px;
+}
+
+main .localizacao .espaco .loc h1{
+    color: #000;
+    margin-top: 10px;
+}
+
+main .localizacao .espaco .loc .mapa h1{
+    color: #fff;
+    margin-top: 10px;
+}
+
+main .localizacao .espaco .loc button{
+    padding: 20px 100px;
+    border: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: #fff;
+    font-weight: 600;
+    color: #3936ff;
+    margin-top: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: #ddd;
+}
+main .localizacao .espaco .loc button:hover{
+    padding: 22px 102px;
+    font-weight: bold;
+    color: #fff;
+    transition: 3s;
+    border-radius: 52px;
+    background: linear-gradient(to left, #3936ff,#292929) ;
+}
+
+main .localizacao .espaco .nos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .localizacao .espaco .nos .divisoria{
+    width: 80%;
+    height: 20%;
+    background: linear-gradient(to left, #3936ff,#292929);
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: #202020 3px 3px 16px;
+}
+main .localizacao .espaco .nos .divisoria1{
+    width: 80%;
+    height: 20%;
+    background: linear-gradient(to left, #3936ff,#292929);
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: #202020 3px 3px 16px;
+}
+main .localizacao .espaco .nos .divisoria2{
+    width: 80%;
+    height: 20%;
+    background: linear-gradient(to left, #3936ff,#292929);
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: #202020 3px 3px 16px;
+}
+main .localizacao .espaco .nos .divisoria3{
+    width: 80%;
+    height: 20%;
+    background: linear-gradient(to left, #3936ff,#292929);
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: #202020 3px 3px 16px;
+}
+main .localizacao .espaco .nos .divisoria4{
+    width: 80%;
+    height: 20%;
+    background: linear-gradient(to left, #3936ff,#292929);
+    margin-top: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: #202020 3px 3px 16px;
+}
+main .localizacao .espaco .nos .divisoria4 h1{
+    color: #fff;
+    box-shadow: none;
+}
+
+main .localizacao .espaco .nos .divisoria4 p{
+    color: #fff;
+    text-align: center;
+}
+
+main .localizacao .espaco .nos .divisoria3 h1{
+    color: #fff;
+    box-shadow: none;
+}
+
+main .localizacao .espaco .nos .divisoria3 p{
+    color: #fff;
+    text-align: center;
+
+}main .localizacao .espaco .nos .divisoria2 h1{
+    color: #fff;
+    box-shadow: none;
+}
+
+main .localizacao .espaco .nos .divisoria2 p{
+    color: #fff;
+    text-align: center;
+
+}main .localizacao .espaco .nos .divisoria1 h1{
+    color: #fff;
+    box-shadow: none;
+}
+
+main .localizacao .espaco .nos .divisoria1 p{
+    color: #fff;
+    text-align: center;
+
+}main .localizacao .espaco .nos .divisoria h1{
+    color: #fff;
+    box-shadow: none;
+}
+
+main .localizacao .espaco .nos .divisoria p{
+    color: #fff;
+    text-align: center;
+}
+
+.container-produto {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.galeria-produto {
+    flex: 1;
+}
+
+.imagem-principal {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.miniaturas img {
+    width: 70px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.detalhes-produto {
+    border-width: 10px;
+    background-color: #f0f0f0;
+    border-radius: 6px;
+    flex: 1;
+    width: 10px;
+}
+
+
+.preco {
+    color: #4CAF50;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.preco-antigo {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 10px;
+}
+
+.tamanhos button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.tamanhos .selecionado {
+    background: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+}
+
+.botao-comprar {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    padding: 12px 20px;
+    background-color: #4B0082;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.botao-comprar:hover{
+    border-radius: 6px;
+	transform: scale(1.05);
+	background:  #9105f5;
+}
+
+.informacoes-produto p {
+    margin: 4px 0;
+}
+
+#medida{
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hr{
+    width: 100px;
+}
+
+.descricao{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+}
